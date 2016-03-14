@@ -1,0 +1,27 @@
+<div data-options="dxView : { name: 'home', title: 'Home' } " >
+    <div class="home-view dx-content-background"  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div id="find_me">
+            FIND ME!! HAHA!!!
+        </div>
+        <div id="blog">
+            fyt
+        </div>
+        <div id="you">
+            YOU FOUND ME!!!!!!!
+        </div>
+        <div id="krish">
+            Krish is my friend
+        </div>
+        <div id="cast">
+            author:Seamus
+            Programmer:Joel
+            Assistant Programmer:Seamus
+        </div>
+        <button id="no">
+            The code
+        </button>
+        <div id="def">
+            I'm definitely not showing you the code
+        </div>
+    </div>
+</div>

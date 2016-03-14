@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "sandbox-mobile", "sandbox-mobile\sandbox-mobile.dxjsproj", "{1F15FAEF-9C4D-455A-A405-A717F0E7BBDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F15FAEF-9C4D-455A-A405-A717F0E7BBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F15FAEF-9C4D-455A-A405-A717F0E7BBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F15FAEF-9C4D-455A-A405-A717F0E7BBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F15FAEF-9C4D-455A-A405-A717F0E7BBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

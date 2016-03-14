@@ -1,0 +1,58 @@
+﻿/* Put css styles for home view here */
+.home-view p {
+	padding: 5px;
+}
+.home-view
+{
+  background-color:magenta
+}
+
+#blog
+{
+  position:absolute;
+  background-color:white;
+  top:20px;
+  color: magenta;
+  left:50px;
+}
+#you
+{
+  display:none;
+  position: absolute;
+  top: 160px;
+  left: 160px;
+}
+.scary 
+{
+  background-image: url(http://www.scaryforkids.com/pics/evil-clown.jpg);
+  background-size: cover;
+}
+#krish
+{
+  display:none;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+#cast
+{
+  display:none;
+  position:absolute;
+  top:165px;
+  left:165px;
+}
+#no
+{
+  display:none;
+  position:absolute;
+  top:300px;
+  left:400px;
+}
+#def
+{
+  display:none;
+}
+.white-screen
+{
+  background-color:white;
+}
