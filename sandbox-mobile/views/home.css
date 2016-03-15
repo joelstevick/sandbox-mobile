@@ -10,7 +10,7 @@
 #blog
 {
   position:absolute;
-  background-color:white;
+  background-color:magenta;
   top:20px;
   color: magenta;
   left:50px;
@@ -19,8 +19,8 @@
 {
   display:none;
   position: absolute;
-  top: 160px;
-  left: 160px;
+  top: 60px;
+  left: 60px;
 }
 .scary 
 {
@@ -38,15 +38,15 @@
 {
   display:none;
   position:absolute;
-  top:165px;
-  left:165px;
+  top:65px;
+  left:65px;
 }
 #no
 {
   display:none;
   position:absolute;
-  top:300px;
-  left:400px;
+  top:30px;
+  left:40px;
 }
 #def
 {

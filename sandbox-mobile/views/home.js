@@ -5,15 +5,16 @@
         console.log('init');
         $('#blog').mouseenter(function () {
             $('#find_me').hide();
+            $('#you').show();
 
             // after 1 second, scary face appears, then after 3 seconds, turn the background magenta
             setTimeout(function () {
-                $('body').addClass('scary');
+                $('.home-view').addClass('scary');
                 $('#blog').hide();
                 $('#you').hide();
 
                 setTimeout(function () {
-                    $('body').removeClass('scary');
+                    $('#home').removeClass('scary');
                     $('#krish').show();
                     $('#cast').show();
                     $('#no').show();
@@ -22,7 +23,7 @@
                         $('#cast').hide();
                         $('#no').hide();
                         $('#def').show();
-                        $('body').addClass('white-screen');
+                        $('#home').addClass('white-screen');
                     });
                 }, 3000);
             }, 1000);
