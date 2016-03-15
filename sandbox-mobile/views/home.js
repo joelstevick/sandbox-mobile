@@ -3,7 +3,7 @@
 
     var init = function () {
         console.log('init');
-        $('#blog').mouseenter(function () {
+        $('#blog').click(function () {
             $('#find_me').hide();
             $('#you').show();
 
