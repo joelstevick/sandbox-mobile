@@ -10,9 +10,9 @@
 #blog
 {
   position:absolute;
-  background-color:white;
   top:20px;
-  color: magenta;
+  height: 30px;
+  width: 30px;
   left:50px;
 }
 #you

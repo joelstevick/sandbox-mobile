@@ -3,8 +3,8 @@
         <div id="find_me">
             FIND ME!! HAHA!!!
         </div>
-        <div id="blog">
-            fyt
+        <div id="blog" data-bind="dxButton: {text: '', onClick: function() { found_me() } }">
+           
         </div>
         <div id="you">
             YOU FOUND ME!!!!!!!

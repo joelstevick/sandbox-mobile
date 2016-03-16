@@ -1,9 +1,8 @@
 ﻿sandbox_mobile.home = function (params) {
     "use strict";
 
-    var init = function () {
         console.log('init');
-        $('#blog').click(function () {
+        var found_me = function () {
             $('#find_me').hide();
             $('#you').show();
 
@@ -27,12 +26,14 @@
                     });
                 }, 3000);
             }, 1000);
-        });
-    }
+        };
     var viewModel = {
         //  Put the binding properties here
         viewShown: function () {
-            init();
+        },
+        found_me: function()
+        {
+            found_me();
         }
     };
 
