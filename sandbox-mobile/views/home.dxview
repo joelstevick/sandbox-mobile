@@ -10,11 +10,11 @@
             YOU FOUND ME!!!!!!!
         </div>
         <div id="krish">
-            Krish is my friend
+            Krish is my friend.  Adam is my friend.  Vincent is my friend
         </div>
         <div id="cast">
-            author:Seamus
-            Programmer:Joel
+            author:Seamus<br />
+            Programmer:Joel<br />
             Assistant Programmer:Seamus
         </div>
         <button id="no">
