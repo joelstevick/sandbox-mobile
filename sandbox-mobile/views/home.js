@@ -8,6 +8,7 @@
         $('#cast').show();
         $('#no').show();
         $('#home').removeClass('white-screen');
+        $('#def').hide();
 
     }
     var definitely_not = function () {
@@ -17,9 +18,6 @@
         $('#def').show();
         $('#home').addClass('white-screen');
         $('#reset').show();
-        $('#reset').click(function () {
-            show_friends();
-        });
     }
     $('#no').click(function () {
         console.log('#no clicked');
@@ -51,7 +49,8 @@
         found_me: function () {
             found_me();
         },
-        definitely_not: definitely_not
+        definitely_not: definitely_not,
+        reset: show_friends
     };
 
     return viewModel;

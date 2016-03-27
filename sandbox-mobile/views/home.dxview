@@ -19,9 +19,8 @@
         </div>
         <div id="no" data-bind="dxButton: {text: 'The code', onClick: function() { definitely_not() } }">
         </div>
-        <button id="reset">
-            Reset
-        </button>
+        <div id="reset" data-bind="dxButton: {text: 'Reset', onClick: function() { reset() } }">
+        </div>
         <div id="def">
             I'm definitely not showing you the code
         </div>
