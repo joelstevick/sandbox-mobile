@@ -1,40 +1,57 @@
 ﻿sandbox_mobile.home = function (params) {
     "use strict";
 
-        console.log('init');
-        var found_me = function () {
-            $('#find_me').hide();
-            $('#you').show();
+    console.log('init');
+    var show_friends = function () {
+        $('#reset').hide();
+        $('#krish').show();
+        $('#cast').show();
+        $('#no').show();
+        $('#home').removeClass('white-screen');
 
-            // after 1 second, scary face appears, then after 3 seconds, turn the background magenta
+    }
+    var definitely_not = function () {
+        $('#krish').hide();
+        $('#cast').hide();
+        $('#no').hide();
+        $('#def').show();
+        $('#home').addClass('white-screen');
+        $('#reset').show();
+        $('#reset').click(function () {
+            show_friends();
+        });
+    }
+    $('#no').click(function () {
+        console.log('#no clicked');
+        definitely_not();
+    });
+
+    var found_me = function () {
+        $('#find_me').hide();
+        $('#you').show();
+
+        // after 1 second, scary face appears, then after 3 seconds, turn the background magenta
+        setTimeout(function () {
+            $('.home-view').addClass('scary');
+            $('#blog').hide();
+            $('#you').hide();
+
             setTimeout(function () {
-                $('.home-view').addClass('scary');
-                $('#blog').hide();
-                $('#you').hide();
+                $('#home').removeClass('scary');
 
-                setTimeout(function () {
-                    $('#home').removeClass('scary');
-                    $('#krish').show();
-                    $('#cast').show();
-                    $('#no').show();
-                    $('#no').click(function () {
-                        $('#krish').hide();
-                        $('#cast').hide();
-                        $('#no').hide();
-                        $('#def').show();
-                        $('#home').addClass('white-screen');
-                    });
-                }, 3000);
-            }, 1000);
-        };
+                show_friends();
+
+            }, 3000);
+        }, 1000);
+    };
     var viewModel = {
         //  Put the binding properties here
         viewShown: function () {
         },
-        found_me: function()
-        {
+        found_me: function () {
             found_me();
-        }
+        },
+        definitely_not: definitely_not
     };
 
     return viewModel;

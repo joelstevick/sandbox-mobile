@@ -48,6 +48,13 @@
   top:30px;
   left:40px;
 }
+#reset
+{
+  display:none;
+  position:absolute;
+  top:30px;
+  left:40px;
+}
 #def
 {
   display:none;

@@ -17,8 +17,10 @@
             Programmer:Joel<br />
             Assistant Programmer:Seamus
         </div>
-        <button id="no">
-            The code
+        <div id="no" data-bind="dxButton: {text: 'The code', onClick: function() { definitely_not() } }">
+        </div>
+        <button id="reset">
+            Reset
         </button>
         <div id="def">
             I'm definitely not showing you the code
