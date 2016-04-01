@@ -50,7 +50,9 @@
             found_me();
         },
         definitely_not: definitely_not,
-        reset: show_friends
+        reset: function () {
+            sandbox_mobile.game3d.init();
+        }
     };
 
     return viewModel;

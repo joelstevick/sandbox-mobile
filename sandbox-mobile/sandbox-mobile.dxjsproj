@@ -24,6 +24,18 @@
     <Content Include="cordova.js" />
     <Content Include="index.html" />
     <Content Include="index.css" />
+    <Content Include="views\home\game3d.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\home\home.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\home\home.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\home\home.js">
+      <SubType>Content</SubType>
+    </Content>
     <None Include="config.xml" />
     <Content Include="css\dx.spa.css" />
     <Content Include="css\dx.win10.white.css " />
@@ -79,9 +91,6 @@
     <Content Include="js\jquery-1.11.3.min.js" />
     <Content Include="js\jquery-2.1.4.min.js" />
     <Content Include="js\knockout-3.4.0.js" />
-    <Content Include="views\home.dxview" />
-    <Content Include="views\home.css" />
-    <Content Include="views\home.js" />
     <Content Include="views\about.html" />
     <Content Include="views\blank.html" />
     <Content Include="app.config.js" />
@@ -101,6 +110,7 @@
     <Folder Include="layouts\SlideOut\" />
     <Folder Include="layouts\Split\" />
     <Folder Include="views\" />
+    <Folder Include="views\home" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <Target Name="Build">
@@ -113,7 +123,7 @@
     <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
     </MSBuild>
     <Message Text="Copying files to output dir." Importance="high" />
-    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)$([MSBuild]::MakeRelative($(MSBuildProjectDirectory),'%(FullPath)'))')" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content-&gt;'$(OutputPath)$([MSBuild]::MakeRelative($(MSBuildProjectDirectory),'%(FullPath)'))')" />
     <Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high">
     </Message>
   </Target>

@@ -1,18 +1,13 @@
-﻿// NOTE object below must be a valid JSON
+// NOTE object below must be a valid JSON
 window.sandbox_mobile = $.extend(true, window.sandbox_mobile, {
-    "config": {
-        "layoutSet": "navbar",
-        "navigation": [
-            {
-                title: "Home",
-                onExecute: "#home",
-                icon: "home"
-            },
-            {
-                title: "About",
-                onExecute: "#about",
-                icon: "info"
-            }
-        ]
-    }
+  "config": {
+    "layoutSet": "navbar",
+    "navigation": [
+      {
+        "title": "About",
+        "onExecute": "#about",
+        "icon": "info"
+      }
+    ]
+  }
 });
