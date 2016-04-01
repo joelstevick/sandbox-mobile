@@ -24,6 +24,18 @@
     <Content Include="cordova.js" />
     <Content Include="index.html" />
     <Content Include="index.css" />
+    <Content Include="public\Threejs\build\three.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="public\Threejs\build\three.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="public\Threejs\examples\js\renderers\CanvasRenderer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="public\Threejs\examples\js\renderers\Projector.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="views\home\game3d.js">
       <SubType>Content</SubType>
     </Content>
@@ -109,6 +121,13 @@
     <Folder Include="layouts\Simple\" />
     <Folder Include="layouts\SlideOut\" />
     <Folder Include="layouts\Split\" />
+    <Folder Include="public" />
+    <Folder Include="public\Threejs" />
+    <Folder Include="public\Threejs\build\" />
+    <Folder Include="public\Threejs\examples\" />
+    <Folder Include="public\Threejs\examples\js\" />
+    <Folder Include="public\Threejs\examples\js\renderers\" />
+    <Folder Include="public\Threejs\src\" />
     <Folder Include="views\" />
     <Folder Include="views\home" />
   </ItemGroup>

@@ -51,7 +51,7 @@
         },
         definitely_not: definitely_not,
         reset: function () {
-            sandbox_mobile.game3d.init();
+            sandbox_mobile.game3d().init();
         }
     };
 
