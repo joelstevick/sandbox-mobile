@@ -12,7 +12,7 @@
             scene = new THREE.Scene();
 
             geometry = new THREE.IcosahedronGeometry(200, 1);
-            material = new THREE.MeshBasicMaterial({ color: 0xff0000, wireframe: true, wireframeLinewidth: 2 });
+            material = new THREE.MeshBasicMaterial({ color: 'maroon', wireframe: true, wireframeLinewidth: 2 });
             mesh = new THREE.Mesh(geometry, material);
 
             scene.add(mesh);

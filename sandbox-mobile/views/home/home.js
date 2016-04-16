@@ -45,6 +45,7 @@
     var viewModel = {
         //  Put the binding properties here
         viewShown: function () {
+            sandbox_mobile.game3d().init();
         },
         found_me: function () {
             found_me();
