@@ -24,7 +24,7 @@
     <Content Include="cordova.js" />
     <Content Include="index.html" />
     <Content Include="index.css" />
-    <Content Include="public\Threejs\build\three.js">
+    <Content Include="public\google.code\dat.gui.min.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="public\Threejs\build\three.min.js">
@@ -122,6 +122,7 @@
     <Folder Include="layouts\SlideOut\" />
     <Folder Include="layouts\Split\" />
     <Folder Include="public" />
+    <Folder Include="public\google.code" />
     <Folder Include="public\Threejs" />
     <Folder Include="public\Threejs\build\" />
     <Folder Include="public\Threejs\examples\" />
